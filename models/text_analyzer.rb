@@ -11,11 +11,11 @@ class TextAnalyzer
   end
 
   def count_of_vowels
-    text.scan(/[aeiou]).count
+    text.scan(/[aeiou]/).count
   end
 
   def count_of_consonants
-    text.scan(/[bcdfghjklmnpqrstvwxyz]).count
+    text.scan(/[bcdfghjklmnpqrstvwxyz]/).count
   end
 
   def most_used_letter
